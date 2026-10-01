@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #d91438;
+    --secondary-color: #f22259;
+    --bg-color: #730220;
+    --text-color: #a60530;
+}
+body {
+    background-color: var(--bg-color);
+}
+h1 {
+    font-size: 75px;
+    color: var(--text-color);
+}
+p {
+    color: var(--text-color);
+}
+    nav {
+        background-color: var(--primary-color);
+        }
+        nav ul {
+        list-style-type: none; /* removes bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav a {
+        color: var(--text-color);
+        text-decoration: none; /*removes underline*/
+        padding: 14px 20px; 
+        display: block;
+        transition: 0.7s;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        font-weight: bold;
+        }
